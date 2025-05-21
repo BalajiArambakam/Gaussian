@@ -16,13 +16,13 @@ To write a program to find the solution of a matrix using Gaussian Elimination.
 6. perform back substitution
 7. print the value in two decimal points
 8. End the program
+   
 ## Program:
 ```
-Program to solve a matrix using Gaussian elimination without partial pivoting.
+'''Program to solve a matrix using Gaussian elimination without partial pivoting.
 Developed by: BALAJI ARAMBAKAM 
 RegisterNumber: 212224230021 
-```
-```
+'''
 import numpy as np 
 import sys
 
@@ -57,8 +57,7 @@ for i in range(n):
     print('X%d = %0.2f'%(i,x[i]),end=' ')
 ```
 ## Output:
-![image](https://github.com/user-attachments/assets/f0983dfe-e4c8-4875-b2a4-d591f3cc8882)
-![image](https://github.com/user-attachments/assets/ea3408bf-f970-40cc-af71-a3a8b45b8e66)
+![image](https://github.com/user-attachments/assets/84a02418-2cb3-4355-9482-ec61da77eaea)
 
 ## Result:
 Thus the program to find the solution of a matrix using Gaussian Elimination is written and verified using python programming.
